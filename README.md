@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-[Pages](https://jasonhuan9.github.io/CSE110Lab2/)
+[Pages](https://jasonhuan9.github.io/sp25-cse110-lab3/)
