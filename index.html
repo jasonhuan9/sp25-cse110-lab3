@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <link rel="icon" href="geisel.jpg">
+    <link rel="stylesheet" href="style.css"> 
     <title>CSE110 Lab 2</title>
   </head>
   <body>
-    <main>
-        <header>CSE 110</header>
-        <h1>Brainstorm meeting</h1>
+        <header id="main-header">CSE 110</header>
+        <h1 style="text-align: center;">Brainstorm meeting</h1>
         <h2>4/15/25</h2>
         <section>
             <h2>Attendence list</h2>
@@ -20,6 +20,11 @@
             </nav>
         </section>
         <h3>Agenda</h3>
+        <style>
+            div {
+                color:rgb(0, 0, 255)
+            }
+        </style>
         <div>brainstorm</div>
         <div>setup</div>
         <hr>
@@ -42,7 +47,9 @@
         <div><em>Ok, thanks for clarifying.</em></div>
         <br>
         <h3>This is the favicon that I used</h3>
+        <section>
         <img src="geisel.jpg" alt="geisel" width="500" height="335">
+        </section>
         <h3>This is a video of Matterhorn Moutain in Switzerland</h3>
         <video width="500" height="300" controls>
             <source src="switzerland.mp4" type="video/mp4">
@@ -64,7 +71,7 @@
                 <input type="text" id="meeting" name="meeting">
             </fieldset>
         </form>
-        <p>What can we do to improve the meeting?</p>
+        <p class="highlight">What can we do to improve the meeting?</p>
         <textarea>input here</textarea> 
         <br>
         <label for="ide">What IDE do you use?</label>
@@ -97,6 +104,10 @@
         <input type="date" id="available" name="available">
         <br>
         <button>empty button</button>
+        <div>
+            <h4>card</h4>
+            <p>hi</p>
+        </div>
         <footer>bottom of the page</footer> 
     </main>
   </body>
